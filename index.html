@@ -13,11 +13,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>PeddieHacks</title>
 
-<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-<link rel = "stylesheet" type = "text/css" href = "./Style.css"/>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.16.0/bootstrap-table.min.js"></script>  
-<link rel="shortcut icon" href="./assets/logo.png" >
+<link rel = "stylesheet" type = "text/css" href = "./main.css"/>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </head>
 
@@ -27,16 +27,16 @@
 
 
 <!--Simple navigation bar at the top of website-->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Peddie Hackathon</a>
+<nav class="navbar navbar-expand-lg navbar-dark bg-warning">
+    <a class="navbar-brand" href="#">Peddie Virtual Hackathon</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="#hero">Home</a>
+          <a class="nav-link" href="#index.html">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#about">About</a>
@@ -60,389 +60,36 @@
               <a class="nav-link" href="#contact">Contact</a>
         </li>
         <li class="nav-item">
+            <a class="nav-link" href="prizes.html">Prizes</a>
+        </li>
+        <li class="nav-item">
             <a class="nav-link" href="https://peddie-hacks.devpost.com/">Project Submission</a>
         </li>
         </ul>
     </div>
 </nav>
 
-<section id="hero">
-    <!--First page-->
-    <div class="container-fluid firstPage">
-        <!--First row (Peddie hacks logo)-->
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="jumbotron min-vh-100 text-center m-0 d-flex flex-column justify-content-center">
+    <div class="container">
         <div class="row">
             <div class="col-12">
-                <img src="./assets/logo.png">
-            </div>
-        </div>
-        <!--Second row (Date)-->
-        <div class="row">
-            <div class="col-12 text-center">
-                <h2>Date TBD</h2>
-            </div>
-        </div>
-        <!--Third row (Button)-->
-        <div class="row">
-            <div class="col-12 text-center">
-                <button class="btn btn-dark"><h4><a href="http://peddiehacks.peddie.org/sign_up.php">Sign up</a></h4></button>
-                <button class="btn btn-dark"><h4><a href="./permission.docx" download>Permission Form</a></h4></button>
-                <button class="btn btn-dark"><h4><a href="https://discord.gg/Zprs7yC">Discord (Group Chat)</a></h4></button>
-                <button class="btn btn-dark"><h4><a href="./prizes.html">Prizes</a></h4></button>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section id="about">
-    <!--Second page-->
-    <div class="container-fluid">
-        <!--About-->
-        <div class="row">
-            <div class="col-12 text-center">
-                <h2>About</h2>
-            </div>
-        </div>
-        <!--About description-->
-        <div class="row">
-            <div class="col-12 text-center">
-            <p>
-                PeddieHacks is a hackathon - a collaborative programming competition where teams of up to four people work to create technological solutions to real world problems under time limit. It will be the first hackathon organized by the Computer Science club at Peddie School to prove its excellence!!
-            </p>
-            </div> 
-        </div>
-    </div>
-</section>
-
-<section id="details">
-    <div class="container-fluid">
-        <!--Details-->
-        <div class="row">
-            <div class="col-12 text-center">
-                <h2>Details</h2>
-            </div>
-        </div>
-        <!--Descriptions-->
-        <div class="row">
-            <div class="col-12 text-center">
-                <h1>Date: TBD</h1>
+                <img class="img-fluid logoImg" src="./assets/logo.png" />
             </div>
         </div>
         <div class="row">
-            <div class="col-12 text-center">
-                <h1>Time: TBD</h1>
+            <div class="col-12">
+                <h1 class="bigText">Peddie Virtual Hackathon</h1>
+                <h2 class="h2Text">August 31st</h2>
             </div>
         </div>
         <div class="row">
-            <div class="col-12 text-center">
-                <h1>Location: Science Center at The Peddie School, 201 S Main St, Hightstown, NJ, 08520</h1>
+            <div class="col-12">
+                <button class="btn btn-lg btn-warning"><a href="https://forms.gle/bu1w1jhDu46smNNu5">Sign up</a></button>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12 text-center">
-                <h1>Any high school students in the area is free to attend!</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 text-center">
-                <h1>As a result of our gracious sponsors, attendance of this event is completely free!</h1>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section id="Schedule">
-<div id="schedule" class="hero-section sci-center-background" style="height: 125vh !important;">
-      <div class="hero-section-text faded">
-      <h2>Schedule of Game Day</h2>
-            <div class="schedule">
-    <table class="blueTable">
-<thead>
-<tr>
-<th>Time Starts/Time Ends</th>
-<th>Event Name</th>
-</tr>
-</thead>
-<tfoot>
-<tr>
-<td colspan="2">
-</td>
-</tr>
-</tfoot>
-<tbody>
-<tr>
-<td>8:00 am-8:45 am</td><td>Checkin and breakfast.</td></tr>
-<tr>
-<td>8:45 am-9:45 am</td><td>Opening ceremony</td></tr>
-<tr>
-<td>9:45 am</td><td>Hacking Starts</td></tr>
-<tr>
-<td>10:00 am-10:45 am</td><td>Workshop #1</td></tr>
-<tr>
-<td>11:00 am</td><td>Lunch starts</td></tr>
-<tr>
-<td>1:00 pm-1:30 pm</td><td>Workshop #2</td></tr>
-<tr>
-<td>1:45 pm-2:15 pm</td><td>Workshop #3</td></tr>
-<tr>
-<td>6:30 pm</td><td>Submission of all projects; dinner starts</td></tr>
-<tr>
-<td>8:00 pm</td><td>Closing ceremony and prize announcements</td></tr>
-</tbody>
-</tr>
-</table>
-</table>
-</div></div></div>
-</section>
-
-<section id="sponsors">
-    <div class="hero-section sci-center-background">
-        <div class="hero-section-text">
-            <h2>Sponsors</h2>
-            <p class="sponsors">You can check out our Sponsors Prospectus
-                <a href="./assets/sponsor_prospectus.pdf">
-                    <u>here</u>
-                </a>
-            </p>
-            <address>If you would like to be a sponsor, please email
-                <a href="mailto:peddiehacks@gmail.com">
-                    <u>Peddie CompSci Club</u>
-                </a>
-            </address>
-            <div class=" row small-up-2 medium-up-3 large-up-4 ">
-                <div class="columns column-block">
-                    <a href="http://www.18techventures.com/">
-                        <img id="community" class="logo" src="./assets/sponsor1.png" /></a>
-                    <p>Community Sponsor</p>
-                </div>
-                <div class="columns column-block">
-                    <a href="https://www.codeninjas.com/">
-                        <img id="community" class="logo" src="./assets/sponsor2.png" /></a>
-                    <p>Community Sponsor</p>
-                </div>
-                <div class="columns column-block">
-                    <a href="https://1password.com/">
-                        <img id="community" class="logo" src="./assets/sponsor3.png" /></a>
-                    <p>Community Sponsor</p>
-                </div>
-                <div class="columns column-block">
-                    <a href="https://www.hyperxgaming.com/us">
-                        <img id="bronze" class="logo" src="./assets/sponsor4.png" /></a>
-                    <h3 style="color: orange;">Bronze Sponsor</h3></div>
-                <div class="columns column-block">
-                    <a href="https://www.sashido.io/en/">
-                        <img id="community" class="logo" src="./assets/sponsor5.png" /></a>
-                    <p>Community Sponsor</p>
-                </div>
-                <div class="columns column-block">
-                    <a href="https://www.wolfram.com/">
-                        <img id="community" class="logo" src="./assets/sponsor6.jpg" /></a>
-                    <p>Community Sponsor</p>
-                </div>
-                <div class="columns column-block">
-                    <a href="https://artofproblemsolving.com/">
-                        <img id="community" class="logo" src="./assets/sponsor7.png" /></a>
-                    <p>Community Sponsor</p>
-                </div>
-                <div class="columns column-block">
-                    <a href="https://www.bugsee.com/">
-                        <img id="community" class="logo" src="./assets/sponsor8.png" /></a>
-                    <p>Community Sponsor</p>
-                </div>
-                <div class="columns column-block">
-                    <a href="http://www.rampscorp.com/">
-                        <img id="community" class="logo" src="./assets/sponsor9.png" /></a>
-                    <p>Community Sponsor</p>
-                </div>
-                <div class="columns column-block">
-                    <a href="https://aws.amazon.com/education/awseducate/">
-                        <img id="community" class="logo" src="./assets/sponsor10.png" /></a>
-                    <p>Community Sponsor</p>
-                </div>
-                <div class="columns column-block">
-                    <a href="https://ultrapress.com/">
-                        <img id="community" class="logo" src="./assets/sponsor11.png" /></a>
-                    <p>Community Sponsor</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section id="faq">
-    <div class="hero-section sci-center-background" style="height: 250vh;">
-      <div class="hero-section-text">
-        <h2>FAQ</h2>
-        <div class="row">
-            <h5 style="text-align: left;">
-                What is a hackathon and why should I attend? 
-            </h5>
-            <h4 style="text-align: right; margin-left: 33%;">
-                A hackathon is any event of certain duration where people come together to solve problems. It is the best place in the world where you can shape your ideas into prototypes and see its potential for turning into actual products. It is also a great opportunity to meet people who share similar passions with you. 
-            </h4>
-        </div>
-        <br><br>
-        <div class="row">
-            <h5 style="text-align: left;">
-                Who can attend?
-            </h5>
-            <h4 style="text-align: right; margin-left: 33%;">
-                PeddieHacks is open to any high schooler with a chaperone per school. For instance, if others from your school would like to attend, you only need to bring one chaperone for all the students. 
-            </h4>
-        </div>
-        <br><br>
-        <div class="row">
-            <h5 style="text-align: left;">
-                Do I need to have programming experience?
-            </h5>
-            <h4 style="text-align: right; margin-left: 33%;">
-                Absolutely not! This hackathon is for both novice and experienced programmers who want to apply (skills) to real problems in the world. You can totally learn to program on the spot or can contribute to your team through graphic design, interface design, etc. 
-
-            </h4>
-        </div>
-        <br><br>
-        <div class="row">
-            <h5 style="text-align: left;">
-                How much does it cost?
-            </h5>
-            <h4 style="text-align: right; margin-left: 33%;">
-                Nothing! This hackathon is free to all high schoolers with one chaperone per school. All food, gifts, and resources are free of charge. 
-            </h4>
-        </div>
-        <br><br>
-        <div class="row">
-            <h5 style="text-align: left;">
-                What should I bring?
-            </h5>
-            <h4 style="text-align: right; margin-left: 33%;">
-                Aside from a passionate heart and creativity, you should bring a laptop, charger, and anything else you need to create innovative solutions to real world issues. There will be plenty of outlets. 
-            </h4>
-        </div>
-        <br><br>
-        <div class="row">
-            <h5 style="text-align: left;">
-                Do I need a team and what is the size of each team?
-            </h5>
-            <h4 style="text-align: right; margin-left: 33%;">
-                No, you do not need a team, but feel free to come with one. If you don’t have a team, you will have an opportunity to meet other people and form your own teams. There is a maximum of 4 people per team.
-            </h4>
-        </div>
-        <br><br>
       </div>
-    </div>
-</section>
-
-<section id="ourteam">
-    <div class="hero-section annenberg-background">
-      <div class="hero-section-text">
-      <div class="co-md-4 col-xs-1l2 text-center">
-        <h2>The Team</h2>
-        <div class="row small-up-2 medium-up-3 large-up-4">
-            <div class="columns column-block"> 
-                <img class="picture" src="./assets/elizabeth.png">
-                <p>Elizabith Hu</p>
-            </div>
-            <div class="columns column-block">
-                <img class="picture" src="./assets/tom.png">
-                <p>Zhaobo (Tom) Han</p>
-            </div>
-            <div class="columns column-block"> 
-                <a href="http://www.nick-studios.com/" target="blank">
-                    <img class="picture" src="./assets/nick.png">
-                </a>
-                <p>Nicolas Kychenthal</p>
-            </div>
-            <div class="columns column-block"> 
-                    <img class="picture" src="./assets/michael.png">
-                <p>Suyu (Michael) Ye</p>
-            </div>
-            <div class="columns column-block"> 
-                    <img class="picture" src="./assets/matt.png">
-                <p>Mathias Prodani</p>
-            </div>
-            <div class="columns column-block">
-                <img class="picture" src="./assets/ellen.png">
-                <p>Yiwei (Ellen) Yan</p>
-            </div>
-            
-            <div class="columns column-block">
-                <img class="picture" src="./assets/vincent.png">
-                <p>Zheyuan (Vincent) Hou</p>
-            </div>
-            <div class="columns column-block">
-                <img class="picture" src="./assets/aarav.png">
-                <p>Aarav Gupta</p>
-            </div>
-            <div class="columns column-block">
-                <img class="picture" src="./assets/advaith.png">
-                <p>Advaith Hari</p>
-            </div>
-            <div class="columns column-block">
-                <img class="picture" src="./assets/rohan.png">
-                <p>Rohan Nunugonda</p>
-            </div>
-        </div>
-    </div>
-        
-      </div>
-    </div>
-</section>
- <div id="aa" class="hero-section annenberg-background">
-      <div id="aaa" class="hero-section-text">
-<div id="space"></div>
 </div>
-</div>
-<section id="contact" class="contact annenberg-background">
-      <div class="hero-section-text" style="text-align: center;">
-      <div class="co-md-4 col-xs-1l2 text-center">
-        <h2>Contact</h2>
-        <div>
-        <a href="mailto:peddiehacks@gmail.com"><h5>Email: peddiehacks@gmail.com</h5></a>
-        </div>
-        <br><br>
-        </div>
-            <h5>General Questions: Join our <a href="https://discord.gg/Zprs7yC">Discord</a> group chat!</h5>
-        </div>
-      </div>
-</section>
-
-
-<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-<script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
-<!--Bootstrap Javascript-->
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script>
-		
-        $(document).foundation();
-
-        // Removes the scrolling indicator when you begin scrolling
-        function removeOnScroll () {
-            var body = document.getElementById('body');
-            var indicator = document.getElementById('indicator');
-            body.onscroll = function(){ 
-                if (!indicator.classList.contains('invis'))
-                    indicator.classList.add('invis');
-            };
-        }
-        
-
-        removeOnScroll();
-
-		$(window).load(function() { 
-			checkAppleProduct();
-		}); 
-		function checkAppleProduct(){
-		    var u = navigator.userAgent, app = navigator.appVersion;
-			 
-			if((navigator.userAgent.match(/(iPhone|iPod|ios|iPad)/i))) {
-                  
-            } else {
-				 $('.annenberg-background').append("<style>.annenberg-background::before{background-attachment:fixed}</style>");
-				 $('.sci-center-background').append("<style>.sci-center-background::before{background-attachment:fixed}</style>");
-            }
-        }
-		
-
-    </script>
     
 </body>
 </html>
