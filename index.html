@@ -1,56 +1,40 @@
-<!doctype html>
-<!-- Code written by Nick Kychenthal and Tom Han-->
-<html class="no-js" lang="en">
-<head>
-<meta charset="utf-8" />
-
-<title>PeddieHacks</title>
-
-<!--bootstrap CDN-->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
-
-<link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+<!--<link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
 <link rel="stylesheet" href="./main.css"  id="cssLink">
 <link rel="stylesheet" href="./scroll-down.css">
 
-<link rel="shortcut icon" href="./assets/logo.png" >
-
 <meta name="description" content="A Peddie Hosted Hackathon">
 <meta name="keywords" content="PeddieHacks,Peddie,Hackathon,Hacks">
-<meta name="author" content="Peddie CS Club">
+<meta name="author" content="Peddie CS Club">-->
 
-<meta name="viewport" content = "width=device-width,initial-scale=0.7">
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>PeddieHacks</title>
 
-<style>
-#last{
-    position:absolute;
-    left:50%;
-    top:88%;
-}
-#space{
-    height:95px;
-}
-#aa{
-    height:95px;
-}
-#aaa{
-    height:95px;
-}
-</style>
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<link rel = "stylesheet" type = "text/css" href = "./Style.css"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.16.0/bootstrap-table.min.js"></script>  
+<link rel="shortcut icon" href="./assets/logo.png" >
+
 </head>
 
 <body id="body">
-<!--Bootstrap Navigation Bar-->
-<div class='container-fluid'>
-    
-    
-<nav class="navbar navbar-expand-md">
-    <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="main-navigation">
-      <ul class="navbar-nav">
+
+<header id="includedContent"></header>
+
+
+<!--Simple navigation bar at the top of website-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Peddie Hackathon</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
         <li class="nav-item">
           <a class="nav-link" href="#hero">Home</a>
         </li>
@@ -78,99 +62,94 @@
         <li class="nav-item">
             <a class="nav-link" href="https://peddie-hacks.devpost.com/">Project Submission</a>
         </li>
-      </ul>
+        </ul>
     </div>
-    </nav>
+</nav>
 
-<section id="hero" class="show-for-landscape">
-  <div class="hero-section annenberg-background faded">
-    <div class="hero-section-text">
-        <img class="peddie-hacks-landscape" src="./assets/logo.png">
-        <div style="margin-left: 25%;">
-            <h2>Date TBD</h2>
-            
-            <button class="border"> <h4> <a href="http://peddiehacks.peddie.org/sign_up.php"> Sign Up </a> </h4> </button>
-            &nbsp;&nbsp;&nbsp;
-            <button class="border"> <h4> <a href="./permission.docx" download> Permission Form </a> </h4> </button>
-            &nbsp;&nbsp;&nbsp;
-            <button class="border"> <h4> <a href="https://discord.gg/Zprs7yC"> Discord (Group Chat) </a> </h4> </button>
-            &nbsp;&nbsp;&nbsp;
-            <button class="border"> <h4> <a href="./prizes.html"> Prizes </a> </h4> </button>
+<section id="hero">
+    <!--First page-->
+    <div class="container-fluid firstPage">
+        <!--First row (Peddie hacks logo)-->
+        <div class="row">
+            <div class="col-12">
+                <img src="./assets/logo.png">
+            </div>
         </div>
-        <div class="container" id="indicator">
-            <div class="chevron"></div>
-            <div class="chevron"></div>
-            <div class="chevron"></div>
+        <!--Second row (Date)-->
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2>Date TBD</h2>
+            </div>
         </div>
-    </div>
-  </div>
-</section>
-
-<section id="hero" class="show-for-portrait">
-    <div class="hero-section faded annenberg-background">
-      <div class="hero-section-text">
-          <img class="peddie-hacks-portrait" src="./assets/logo.png">
-          <div style="margin-left: 33%;">
-              <h2>TBD</h2>
-            <button class="border"> <h4> <a href="http://peddiehacks.peddie.org/sign_up.php"> Sign Up </a> </h4> </button>
-            &nbsp;&nbsp;&nbsp;
-            <button class="border"> <h4> <a href="./permission.docx" download> Permission Form </a> </h4> </button>
-            &nbsp;&nbsp;&nbsp;
-            <button class="border"> <h4> <a href="https://discord.gg/Zprs7yC"> Discord (Group Chat) </a> </h4> </button>
-            &nbsp;&nbsp;&nbsp;
-            <button class="border"> <h4> <a href="./prizes.html"> Prizes </a> </h4> </button>
-          </div>
-      </div>
-      <div class="container" id="indicator">
-        <div class="chevron"></div>
-        <div class="chevron"></div>
-        <div class="chevron"></div>
-      </div>
+        <!--Third row (Button)-->
+        <div class="row">
+            <div class="col-12 text-center">
+                <button class="btn btn-dark"><h4><a href="http://peddiehacks.peddie.org/sign_up.php">Sign up</a></h4></button>
+                <button class="btn btn-dark"><h4><a href="./permission.docx" download>Permission Form</a></h4></button>
+                <button class="btn btn-dark"><h4><a href="https://discord.gg/Zprs7yC">Discord (Group Chat)</a></h4></button>
+                <button class="btn btn-dark"><h4><a href="./prizes.html">Prizes</a></h4></button>
+            </div>
+        </div>
     </div>
 </section>
-
-<br>
 
 <section id="about">
-    <div id="about1" class="hero-section sci-center-background">
-      <div class="hero-section-text">
-        <h2>About</h2>
-            <h3 class="show-for-portrait">
-                <p>
-                    PeddieHacks is a hackathon - a collaborative programming competition where teams of up to four people work to create technological solutions to real world problems under time limit. It will be the first hackathon organized by the Computer Science club at Peddie School to prove its excellence!!
-                </p> 
-            </h3>
-            <h3 class="show-for-landscape">
-                <p id="ik">
-                    PeddieHacks is a hackathon - a collaborative programming competition where teams of up to four people work to create technological solutions to real world problems under time limit. It will be the first hackathon organized by the Computer Science club at Peddie School to prove its excellence!!
-                </p> 
-            </h3>
-      </div>
+    <!--Second page-->
+    <div class="container-fluid">
+        <!--About-->
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2>About</h2>
+            </div>
+        </div>
+        <!--About description-->
+        <div class="row">
+            <div class="col-12 text-center">
+            <p>
+                PeddieHacks is a hackathon - a collaborative programming competition where teams of up to four people work to create technological solutions to real world problems under time limit. It will be the first hackathon organized by the Computer Science club at Peddie School to prove its excellence!!
+            </p>
+            </div> 
+        </div>
     </div>
 </section>
 
 <section id="details">
-    <div class="hero-section sci-center-background">
-      <div class="hero-section-text faded">
-        <h2>Details</h2>
+    <div class="container-fluid">
+        <!--Details-->
         <div class="row">
-             
-                <h1>
-                    Date: TBD
-                    <br><br>
-                    Time: TBD
-                    <br><br>
-                    Location: Science Center at The Peddie School, 201 S Main St, Hightstown, NJ, 08520 
-                    <br><br>
-                    Any high school student in the area is free to attend!
-                    <br><br>
-                    As a result of our gracious sponsors, attendance of this event is completely free!
-                    <br><br>
-                </h1>
-            
+            <div class="col-12 text-center">
+                <h2>Details</h2>
+            </div>
         </div>
-      </div>
+        <!--Descriptions-->
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1>Date: TBD</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1>Time: TBD</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1>Location: Science Center at The Peddie School, 201 S Main St, Hightstown, NJ, 08520</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1>Any high school students in the area is free to attend!</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1>As a result of our gracious sponsors, attendance of this event is completely free!</h1>
+            </div>
+        </div>
+    </div>
 </section>
+
 <section id="Schedule">
 <div id="schedule" class="hero-section sci-center-background" style="height: 125vh !important;">
       <div class="hero-section-text faded">
@@ -464,7 +443,6 @@
 		
 
     </script>
-    </div>
     
 </body>
 </html>
