@@ -21,6 +21,10 @@
 .firstPage{
     padding-top:25px;
 }
+.jumbotron{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
 .detailsText{
     text-align:center;
 }
