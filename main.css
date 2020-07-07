@@ -24,7 +24,13 @@
 .jumbotron{
     padding: 0px 0px 0px 0px;
     margin: 0px 0px 0px 0px;
+    background-color: #153256;
 }
 .detailsText{
     text-align:center;
+}
+#peddieBlueAndGold{/** storing these here in case we decide to use them**/
+    background-color: #cc9800;
+
+    background-color: #153256;
 }
