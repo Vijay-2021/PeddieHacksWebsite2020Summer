@@ -40,11 +40,18 @@
     color: #cc9800;
     font-size: 40px;
     font-family: "brandon-grotesque", sans-serif;
+    margin-top:20px;
 }
 .bodyText{
     color: #15365e;
-    font-size: 32px;
+    font-size: 30px;
     margin-left:30px;
+    font-family: "brandon-grotesque", sans-serif;
+}
+
+.imageDesc{
+    color: #15365e;
+    font-size: 20px;
     font-family: "brandon-grotesque", sans-serif;
 }
 .sponsors{
@@ -62,6 +69,10 @@
     font-size: 70px;
     font-weight:900;
     color:white;
+}
+.textAlignment{
+    text-align:center;
+    justify-content:center;
 }
 .faq{
     text-align:center;
