@@ -1,8 +1,12 @@
 .sponsors{
     text-align:center;
 }
-.jumbotron {
+.jumbotronTitleBackground {
     background-image: url("./assets/purple.jpg");
+    background-size: cover;
+}
+.jumbotronTextBackground {
+    background-image: url("./assets/techBackground.jpg");
     background-size: cover;
 }
 .large{
@@ -15,4 +19,8 @@
     margin-right:0px;
     padding-left:0px;
     padding-right:0px;
+}
+.headerText h2{
+    color: #153256;
+    font-family: "brandon-grotesque", sans-serif;
 }

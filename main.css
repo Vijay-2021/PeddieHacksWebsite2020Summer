@@ -35,3 +35,31 @@
 
     background-color: #153256;
 }
+
+.headerText{
+    color: #cc9800;
+    font-size: 40px;
+    font-family: "brandon-grotesque", sans-serif;
+}
+.bodyText{
+    color: #15365e;
+    font-size: 32px;
+    margin-left:30px;
+    font-family: "brandon-grotesque", sans-serif;
+}
+.sponsors{
+    text-align:center;
+}
+.jumbotronTitleBackground {
+    background-image: url("./assets/purple.jpg");
+    background-size: cover;
+}
+.jumbotronTextBackground {
+    background-image: url("./assets/techBackground.jpg");
+    background-size: cover;
+}
+.large{
+    font-size: 70px;
+    font-weight:900;
+    color:white;
+}
