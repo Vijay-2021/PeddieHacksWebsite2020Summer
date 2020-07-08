@@ -1,0 +1,12 @@
+.jumbotron {
+    background-image: url("./assets/purple.jpg");
+    background-size: cover;
+}
+.large{
+    font-size: 70px;
+    font-weight:900;
+    color:white;
+}
+.faq{
+    text-align:center;
+}

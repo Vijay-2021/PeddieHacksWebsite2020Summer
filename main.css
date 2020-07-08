@@ -25,7 +25,7 @@
 .jumbotron{
     padding: 0px 0px 0px 0px important!;
     margin: 0px 0px 0px 0px important!;
-    background-color: #153256;
+    background-image: url("./assets/purple.jpg");
 }
 .detailsText{
     text-align:center;
@@ -62,4 +62,13 @@
     font-size: 70px;
     font-weight:900;
     color:white;
+}
+.faq{
+    text-align:center;
+}
+.bodyTextfaq{
+    color: #15365e;
+    font-size: 20px;
+    margin-left:30px;
+    font-family: "brandon-grotesque", sans-serif;
 }
