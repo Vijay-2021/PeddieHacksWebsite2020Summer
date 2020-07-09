@@ -25,9 +25,12 @@
     padding-top:25px;
 }
 .jumbotron{
-    padding: 0px 0px 0px 0px important!;
-    margin: 0px 0px 0px 0px important!;
-
+    margin-bottom:0px !important;
+    margin-right:0px !important;
+    margin-left:0px !important;
+}
+.container-fluid{
+    padding-top:10px;
 }
 .detailsText{
     text-align:center;
