@@ -97,10 +97,10 @@
     font-weight: 900;
     font-family: "brandon-grotesque", sans-serif;
     margin-bottom:70px;
-    margin-top:30px;
+    
     text-decoration: underline;
 }
-@media(min-width:560px){
+@media(min-width:558px){
     .picture{
         justify-content: center; 
         width: 100%; 
