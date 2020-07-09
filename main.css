@@ -70,6 +70,11 @@
     font-weight:900;
     color:white;
 }
+.largeTitle{
+    font-size: 70px;
+    font-weight:900;
+    color:white;
+}
 .textAlignment{
     text-align:center;
     justify-content:center;
