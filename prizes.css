@@ -4,17 +4,20 @@
 .jumbotron {
     background-image: url("./assets/purple.jpg");
     background-size: cover;
-  }
-  .large{
-      font-size: 70px;
-      font-weight:900;
-      color:gold;
-  }
-  .fonts{
-      font-family:georgia;
-  }
-  @media (max-width:992px){
-      .prize{
-          font-size:25px;
-      }
-  }
+}
+.large{
+    font-size: 70px;
+    font-weight:900;
+    color:gold;
+}
+.fonts{
+  font-family:georgia;
+}
+.medal{
+    align:right;
+}
+@media (max-width:992px){
+    .prize{
+        font-size:25px;
+    }
+}
