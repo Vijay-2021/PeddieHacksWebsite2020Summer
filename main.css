@@ -6,14 +6,16 @@
     color:white !important;
 }
 .bigText{
-    font-size:70px;
+    color: #15365e;
+    font-size:60px;
     text-align:center;
-    font-family:serif;
+    font-family: "brandon-grotesque", sans-serif;
     padding-top:10px;
 }
 .h2Text{
+    color: #15365e;
     text-align:center;
-    font-family:serif;
+    font-family: "brandon-grotesque", sans-serif;
 }
 .dateRow{
     margin-top:20px;
@@ -70,6 +72,15 @@
     font-weight:900;
     color:white;
 }
+.sponsorsLink{
+    color: #15365e;
+    font-weight:bold;
+    text-decoration: underline;
+}
+.sponsorsLink:hover {
+    
+    background-color: lightblue; 
+  }
 .largeTitle{
     font-size: 70px;
     font-weight:900;
