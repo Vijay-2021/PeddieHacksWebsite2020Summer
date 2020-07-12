@@ -118,7 +118,7 @@
     .picture{
         justify-content: center; 
         width: 100%; 
-        height:100px!important;
+        height:auto!important;
         margin-bottom:40px;
     }
 }
@@ -138,10 +138,10 @@
     .picture{
         height:auto;
         width:100%;
-        margin-bottom:40px;
+        
     }    
 }
-@media(min-width:768px){
+/**@media(min-width:768px){
     .picture{
         height:180px;
     }
@@ -155,5 +155,5 @@
     .picture{
         height:130px;
     }
-}
+}**/
 
