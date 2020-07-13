@@ -121,4 +121,10 @@
         margin-bottom:40px;
 }
 
-
+.fa {
+    padding: 10px;
+    width: 5px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
