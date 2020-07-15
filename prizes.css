@@ -22,6 +22,9 @@
     text-align: center;
     text-decoration: none;
   }
+.navbar-brand{
+    color:black !important;
+}
 
 @media (max-width:992px){
     .prize{

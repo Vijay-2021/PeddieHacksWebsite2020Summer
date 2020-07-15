@@ -91,7 +91,7 @@
 }
 .textAlignment{
     text-align:center;
-    justify-content:center;
+    justify-content:left;
 }
 .faq{
     text-align:center;
@@ -127,4 +127,16 @@
     text-align: center;
     text-decoration: none;
   }
-  
+.navbar-brand{
+    color:black !important;
+}
+@media (max-width:992px){
+    .largeTitle{
+        font-size:35px;
+    }
+}
+@media (max-width:992px){
+    .bodyText{
+        font-size:20px;
+    }
+}
