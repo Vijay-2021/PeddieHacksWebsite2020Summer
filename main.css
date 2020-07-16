@@ -130,6 +130,9 @@
 .navbar-brand{
     color:black !important;
 }
+.background{
+    color:white; /*Change stuff inside this for background color*/
+}
 @media (max-width:992px){
     .largeTitle{
         font-size:35px;
